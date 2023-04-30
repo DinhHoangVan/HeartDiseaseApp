@@ -82,7 +82,7 @@ scale_list = {'Age', 'Sex', 'ChestPainType', 'RestingBP', 'Cholesterol', 'Fastin
 scaler = StandardScaler()
 df[list(scale_list)] = scaler.fit_transform(df[list(scale_list)])
 # Getting back just the user input
-#df = df[:1]
+df = df[:1]
 
 # Load in trained models
 
