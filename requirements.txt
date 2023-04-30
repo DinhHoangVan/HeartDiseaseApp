@@ -1,0 +1,14 @@
+numpy==1.22.4
+pandas==1.4.2
+scikit-learn==1.2.2
+matplotlib==3.3.3
+xgboost==1.2.0
+seaborn==0.12.0
+
+
+
+
+streamlit~=1.12.0
+altair~=4.2.2
+Pillow~=9.5.0
+imblearn~=0.0
