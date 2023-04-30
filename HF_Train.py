@@ -66,8 +66,8 @@ df['ST_Slope'] = df['ST_Slope'].map({'Upsloping': 0, 'Flat': 1, 'Downsloping': 2
 # Displays the user input features
 st.subheader('User Input features')
 
-st.write(df.iloc[:, :11])
-#st.write(df.iloc[:, 6:])
+st.write(df.iloc[:, :5])
+st.write(df.iloc[:, 6:])
 
 # Save column names for later
 columns_list = list(df.columns)
