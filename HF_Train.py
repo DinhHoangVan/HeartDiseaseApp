@@ -32,7 +32,7 @@ def user_input_features():
     MaxHR = st.sidebar.slider('Max Heart Rate (bpm)', 71, 202, 160)
     ExerciseAngina = st.sidebar.selectbox('Exercise-induced Angina', ('Yes', 'No'))
     Oldpeak = st.sidebar.slider('ST depression', .0,7.0,1.1)
-    ST_Slope = st.sidebar.selectbox('slope of the peak exercise ST segment', ('Upsloping', 'Flat', 'Downsloping'))
+    ST_Slope = st.sidebar.selectbox('Slope of the peak exercise ST segment', ('Upsloping', 'Flat', 'Downsloping'))
 
 
 
