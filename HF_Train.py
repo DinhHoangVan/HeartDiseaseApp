@@ -99,7 +99,7 @@ prediction = load_clf.predict(df)
 
 st.write('#')
 st.subheader('Heart Failure Prediction')
-HeartDisease = np.array(['NO', 'YES'])
+HeartDisease = np.array(['Good!!! Normal Heart', 'Heart Disease'])
 st.write(HeartDisease[prediction])
 
 prediction_proba = load_clf.predict_proba(df)
