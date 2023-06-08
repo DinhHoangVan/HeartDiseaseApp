@@ -122,7 +122,7 @@ if model == 'Random Forest':
 
     fig, ax = plt.subplots()
     ax.set_xticklabels(ax.get_xticklabels(), rotation=40, ha="right")
-    sns.barplot(x="Feature", y="Importance", data=imp_df)
+    sns.barplot(x="Feature", y="Coefficient", data=imp_df)
     st.pyplot(fig)
 
     st.write(imp_df)
