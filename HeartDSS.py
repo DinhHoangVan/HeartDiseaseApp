@@ -118,7 +118,7 @@ if model == 'XGBoost':
 
     st.subheader('XGB Coefficients')
 
-    imp_df = pd.DataFrame(list(zip(columns_list, load_clf.feature_importances_)), columns=['Feature', 'Importance'])
+    imp_df = pd.DataFrame(list(zip(columns_list, load_clf.feature_importances_)), columns=['Feature', 'Coefficient'])
 
     fig, ax = plt.subplots()
     ax.set_xticklabels(ax.get_xticklabels(), rotation=40, ha="right")
