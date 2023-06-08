@@ -116,7 +116,7 @@ st.dataframe(proba_df.style.format("{:.2%}"))
 
 if model == 'XGBoost':
 
-    st.subheader('XGB Feature Importance')
+    st.subheader('XGB Coefficients')
 
     imp_df = pd.DataFrame(list(zip(columns_list, load_clf.feature_importances_)), columns=['Feature', 'Importance'])
 
